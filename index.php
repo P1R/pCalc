@@ -3,7 +3,7 @@
 <body>
 <h1> calculadora </h1>
 <form action="index.php" method="post">
-uno:<input type="text" name="uno" value="<?php echo htmlentities($acum); ?>"/>
+uno:<input type="text" name="uno" />
 dos:<input type="text" name="dos" />
 <br>
 operacion:
